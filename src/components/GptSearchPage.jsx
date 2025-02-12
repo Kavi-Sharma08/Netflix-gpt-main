@@ -2,7 +2,7 @@ import React from 'react'
 
 const GptSearchPage = () => {
   return (
-    <div>GptSearchPage</div>
+    <div>GptSearchPage1</div>
   )
 }
 
