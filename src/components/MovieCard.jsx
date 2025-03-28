@@ -2,6 +2,7 @@ import { POSTER_PATH } from "../utils/Constants"
 
 
 const MovieCard = ({ PosterUrl }) => {
+  if(!PosterUrl) return;
 
   return (
 

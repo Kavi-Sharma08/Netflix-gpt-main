@@ -10,6 +10,7 @@ import {
 const MovieList = ({ title, Movies }) => {
 
     if (!Movies) return;
+    console.log(Movies)
     return (
         <div className="bg-slate-900">
             <div>

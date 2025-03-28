@@ -1,8 +1,14 @@
 import React from 'react'
-
+import GptMovieSuggestion from './GptMovieSuggestion'
 const GptSearchPage = () => {
   return (
-    <div>GptSearchPage1</div>
+    <>
+      <div className=''>
+        <GptMovieSuggestion/>
+      </div>
+    </>
+    
+
   )
 }
 

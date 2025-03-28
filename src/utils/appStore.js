@@ -6,6 +6,7 @@ import PopularMovieReducer from "./PopularMovieSlice"
 import UpcomingMovieReducer from "./UpcomingMovieSlice"
 import TVShowsReducer from "./TvShowsSlice"
 import gptReducer from "./gptSlice"
+import gptMoviesReducer from "./gptMovieSlice"
 
 const appstore = configureStore(
     {
@@ -16,7 +17,9 @@ const appstore = configureStore(
             PopularMovie : PopularMovieReducer,
             UpcomingMovie : UpcomingMovieReducer,
             TVShow : TVShowsReducer,
-            gpt : gptReducer
+            gpt : gptReducer,
+            gptMovie : gptMoviesReducer
+            
 
         }
     }

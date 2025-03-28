@@ -8,7 +8,7 @@ const GptSearch = () => {
     <>
       <img
         src={BACKGROUND_IMG}
-        className="absolute top-0 left-0 w-full h-full object-cover hidden sm:block -z-10"
+        className="absolute top-0 left-0 w-[100vw] h-[100vh] object-cover  sm:block -z-10"
         alt="Background"
       />
 
