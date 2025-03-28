@@ -11,6 +11,7 @@ import gptMoviesReducer from "./gptMovieSlice"
 const appstore = configureStore(
     {
         reducer: {
+            
             user : userReducer,
             movie : movieReducer,
             TopRatedMovie : TopMovieReducer,
